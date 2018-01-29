@@ -1,0 +1,22 @@
+{
+  "name": "rubic/magento2-module-custom-email-theme",
+  "description": "Specify a custom theme for Magento 2 emails.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Rubic\\CustomEmailTheme\\": ""
+    }
+  },
+  "require": {
+    "magento/module-backend": ">=100.1.0",
+    "magento/module-sales": ">=100.1.0",
+    "magento/module-email": ">=100.1.0",
+    "magento/module-theme": ">=100.1.0"
+  }
+}
